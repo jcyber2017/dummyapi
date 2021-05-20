@@ -5,17 +5,40 @@ Configura tu entorno de desarrollo:
 Clona el repositorio
 Asegura que tienes nodeJS y npm instalado
 Tambien puedes usar yarn
+
+## Instalación
+
 Ejecuta `npm install` ó `yarn install` para instalar todos los paquetes necesarios
+
+```bash
+yarn install
+```
+
+## Ejecución
 Ejecuta `npm run dev` ó `yarn start` para ejecutar el servidor de desarrollo
+```bash
+yarn start
+```
+
 Accede al website http://localhost:3000/
 
-Contruir y exportar
+## Contruir
 Ejecuta `npm run build` o `yarn build` para construir la aplicación
+```bash
+yarn build
+```
+
+## Exportar
 Ejecuta `npm run export` ó `yarn export` para exportar la aplicación como un conjunto de paginas estaticas
+```bash
+yarn export
+```
 
-Pruebas
+## Pruebas
 Ejecuta `npm run test` o `yarn test`
-
+```bash
+yarn test
+```
 
 Pasos para empezar si eres principiante y tienes node instalado:
 - clona el repositorio usando el comando:
