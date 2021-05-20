@@ -15,3 +15,16 @@ Ejecuta `npm run export` ó `yarn export` para exportar la aplicación como un c
 
 Pruebas
 Ejecuta `npm run test` o `yarn test`
+
+
+Pasos para empezar si eres principiante y tienes node instalado:
+- clona el repositorio usando el comando:
+  git clone https://github.com/jcyber2017/dummyapi.git
+- Usando la consola accede al directorio dummyapi
+  cd dummyapi
+- Instala los paquetes:
+  npm install
+- Ejecuta el modo developer:
+  npm run dev
+- Listo ya puedes ver la aplicacion web, usa el siguiente link en tu navegador:
+  http://localhost:3000/
