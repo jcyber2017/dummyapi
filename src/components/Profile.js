@@ -8,11 +8,13 @@ const getAddress = loc => {
   return [loc.state, loc.street, loc.city, loc.country].join(', ')
 }
 
-const Perfil = ({ author }) => (
+const Profile = ({ author }) => (
   <div style={styles.container}>
     <img src={author.picture} alt={getFullName(author)} style={styles.images} />
     <p>Nombre: {getFullName(author)}</p>
     <p>Genero: {author.gender}</p>
+    <p>Teléfono: {author.phone}</p>
+    <p>Fecha de nacimiento: {author.dateOfBirth.substr(0, 10)}</p>
     <p>Email: {author.email}</p>
     <p>Dirección: {getAddress(author.location)}</p>
   </div>
@@ -35,4 +37,4 @@ const styles = {
   }
 }
 
-export default Perfil
+export default Profile

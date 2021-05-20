@@ -2,7 +2,7 @@ import React from 'react'
 
 import icon from '../images/likes.png'
 
-const Likes = ({ likes, onClick }) => (
+const Likes = ({ likes }) => (
   <>
     <img src={icon} style={styles.icon} alt="Like" />
     <p style={styles.likes}>
@@ -16,8 +16,7 @@ const styles = {
     width: 30,
     height: 30
   },
-  likes: {
-  }
+  likes: {}
 }
 
 export default Likes

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Modal from 'react-modal'
 
-import Perfil from './Perfil'
+import Profile from './Profile'
 import Post from './Post'
 import CommentList from './CommentList'
 
@@ -10,11 +10,6 @@ const Main = ({ fetchService }) => {
   const [comments, setComments] = useState([])
   const [author, setAuthor] = useState(null)
 
-  const getAllPosts = () => {
-    fetchService.getAllPosts().then(data => {
-      setPosts(data.data)
-    })
-  }
   useEffect(() => {
     fetchService.getAllPosts().then(data => {
       setPosts(data.data)
@@ -74,7 +69,7 @@ const Main = ({ fetchService }) => {
         contentLabel="Perfil"
       >
         <button onClick={modalAuthorClose}>Cerrar</button>
-        <Perfil author={author} />
+        <Profile author={author} />
       </Modal>
     )
   }/**/
