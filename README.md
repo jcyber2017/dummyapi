@@ -12,3 +12,6 @@ Accede al website http://localhost:3000/
 Contruir y exportar
 Ejecuta `npm run build` o `yarn build` para construir la aplicación
 Ejecuta `npm run export` ó `yarn export` para exportar la aplicación como un conjunto de paginas estaticas
+
+Pruebas
+Ejecuta `npm run test` o `yarn test`
